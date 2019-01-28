@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="projects">
+    <h1>Projects (A list of academic projects):</h1>
+    <ol>             
+            <li>Patient data viewer (Group project):
+                <ul>
+                    <p>An mobile application that let's an authenticated doctor log into the app.<br>
+                        Check patients information:
+                        <li>Medical history</li>
+                        <li>Medical reports such as xrays, sonography videos.</li>
+                        <li>Write new prescription.</li>
+                        <li>Call patient or patients family members.</li>
+                    </p>
+                    <div>
+                        <p>Technologies: Java, SQL, Andoroid.</p><br>
+                    </div>
+                </ul>
+            </li>
+            <li>Scambio (Group project):
+                <ul>
+                    <p>A website that lets you exchange items.
+                       User can:
+                        <li>Explore the website without registration.</li>
+                        <li>Signup and login.</li>
+                        <li>Upload items for exchange.</li>
+                        <li>Choose an another users item for exchange in return for any of his item.</li>
+                        <li>It's a match if the other user has also liked/selected your item for exchange.</li>
+                        <li>Post a 'match', users can chat and decide on location or way to exhange the items.</li>
+                    </p>
+                </ul>
+                <div>
+                    <p>Technologies: Mongo, Mongoose, Express, Node.js</p><br>
+                </div>
+            </li>
+            <li>Starbucks - Cloud Technologies (Group project):
+                    <ul>
+                        <p>An order management system.
+                           Description:
+                            <li>APIs to place order, pay, checkout, add and explore reviews written in GO.</li>
+                            <li>6 MongoDB clusters hosted in AWS used as backend.</li>
+                            <li>GO APIs deployed in dockers in AWS EC2 instances (Private network.)</li>
+                            <li>AWS load balancer connecting all the dockers to the outside world.</li>
+                            <li>Kong API gateway connected to load balancer.</li>
+                            <li>Front end (node.js) deployed in a docker machine in Public network, connecting to backend via Kong API gateway.</li>
+                        </p>
+                    </ul>
+                <div>
+                    <p>Technologies: Mongo, AWS, Docker, Kong API, GO, Node.js</p><br>
+                </div>
+            </li>
+            <li>Pig game (Hobby project):
+                    <ul>
+                        <p>Description:
+                            <li>2 player game.</li>
+                            <li>Players can enter the winning score.</li>
+                            <li>Roll the dice, get the score.</li>
+                            <li>If you roll a 1, you lose the points.</li>
+                            <li>1st player to reach the winning score, wins the game!</li>
+                        </p>
+                    </ul>
+                <div>
+                    <p>Technologies: JavaScript, CSS3, HTML5</p><br>
+                </div>
+            </li>
+            <li>This website! (Hobby project)
+                    <p>Description: <br>
+                        Well you have explored the website, so you know! 
+                    </p>
+                    
+                    <div><p>Technologies: Python, Flask, CSS3, HTML5</p></div>
+                    
+            </li>
+    </ol>
+</div>
+{% endblock %}
