@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Flask App</title>
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/main.css') }}"> 
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  </head>
+  <body>
+    <header>
+      <div class="container"> 
+        <h1 class="w3-container w3-black w3-center w3-allerta">
+            <p class="w3-xxxlarge">VRUSHALI JADHAV</p>
+            <p class="w3-xlarge">Softwate Engineering Graduate Student</p>
+        </h1>
+        <strong><nav>
+          <!--Unordered list-->
+          <ul class="menu">
+              <!--List items and anchor tags-->
+              <!--TItle in a tag will display information when you hover over the tag-->
+              <li><a href="{{ url_for('aboutme') }}">About me</a></li> 
+              <li><a href="{{ url_for('background') }}">Background and Skills</a></li> 
+              <li><a href="{{ url_for('projects') }}">Projects</a></li>         
+          </ul>
+       </nav></strong>
+      </div>
+    </header>
+      <section>
+        <div class="myImage">
+          <!--img tag doesn't need a closing in HTML5. Alt is used to display alternate msg for when user can't see the image for some reason-->
+          <img src="{{url_for('static',filename='me.jpg')}}" alt="Just a cool picture of me!">
+          <!--Below msg will be shown right below the picture-->
+        </div>
+      </section>
+    <div class="container">
+        {%block content%}
+        {%endblock%}
+    </div>
+  </body>
+</html>
+

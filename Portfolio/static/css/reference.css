@@ -1,0 +1,109 @@
+body {
+    font-family:Arial, Helvettics, san-serif;
+    background-color: #333333;
+  }
+  
+  header{
+    width: 80%;
+    background-color: black;
+    color: white;
+    /*Use margin to bring the font to the center*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;
+  }
+  
+  section{
+    width: 80%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  p{
+    padding: 10px;
+  }
+  
+  img{
+    float: right;
+    margin: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px 1px #cccccc;
+  }
+  h1{
+    /*200% for the font size of the web browser*/
+    font-size: 2em;
+    /*To adjust vertical spacing, set margin and padding to 0 and then set padding top*/
+    margin: 0%;
+    padding: 0%;
+    padding-top: 10px;
+  }
+  
+  h2{
+    font-size: 1.2em;
+  }
+  
+  h3{
+    font-size: 0.9em;
+  }
+  
+  hgroup{
+    width: 70%;
+    float: left;
+  }
+  
+  hgroup h1 {
+    padding-top: 0%;
+    line-height: 1em;
+  }
+  
+  hgroup h2{
+    text-transform: uppercase;
+    line-height: 1em;
+  }
+  
+  nav{
+    width: 30%;
+    float: right;
+    padding-top: 0%;
+    line-height: 1em;
+  }
+  
+  nav ul{
+    /*This will get rid of the bullets*/
+    list-style-type: none;
+  }
+  
+  nav li{
+    float:left;
+    margin-right:10px;
+  }
+  
+  aside{
+    font-size: .8em;
+    background:#eeff99;
+    padding: 20px;
+    border: 1px solid #696;
+    border-radius:20px;
+  }
+  
+  footer{
+    width: 80%;
+    background-color: black;
+    color: white;
+    /*Use margin to bring the font to the center*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;
+  }
